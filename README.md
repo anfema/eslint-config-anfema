@@ -9,7 +9,19 @@ The most prominent additions/changes are:
 - Relaxed line length
 
 
-## Available options
+
+## Installation
+
+```sh
+#Packages to install
+eslint eslint-plugin-babel eslint-plugin-import babel-eslint eslint-config-airbnb-base eslint-config-anfema
+```
+
+Install with either `yarn add --dev` or `npm install --save-dev`
+
+
+
+## Available versions
 
 ### Default
 
