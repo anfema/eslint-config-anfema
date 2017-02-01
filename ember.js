@@ -1,0 +1,47 @@
+module.exports = {
+	root: true,
+	parserOptions: {
+		ecmaVersion: 6,
+		sourceType: 'module',
+	},
+	parser: 'babel-eslint',
+	extends: 'airbnb-base',
+	env: {
+		es6: true,
+		browser: true,
+	},
+	plugins: [
+		'babel',
+	],
+	rules: {
+		'comma-dangle': ['error', 'always-multiline'],
+		'consistent-this': ['error', 'that'],
+		'func-names': 'off',
+		'generator-star-spacing': 'off', // fails with async code at the moment, revisit later
+		'import/extensions': 'off',
+		'import/no-extraneous-dependencies': 'off',
+		'import/no-named-as-default-member': 'off',
+		'import/no-unresolved': 'off', // does not work with the ember resolver
+		'indent': ['warn', 'tab', { SwitchCase: 1 }],
+		'max-len': ['error', 120, { ignorePattern: 'Logger\\.|computed\\(|observer\\(', ignoreTemplateLiterals: true, ignoreUrls: true }],
+		'new-cap': ['error', { properties: false, capIsNewExceptions: ['A'/* Ember.A */] }],
+		'newline-after-var': 'error',
+		'newline-before-return': 'error',
+		'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+		'no-alert': 'off',
+		'no-comma-dangle': 'off',
+		'no-console': ['error', { allow: ['error'] }],
+		'no-debugger': 'error',
+		'no-mixed-operators': 'off',
+		'no-multiple-empty-lines': ['error', { 'max': 1, }],
+		'no-param-reassign': 'off',
+		'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+		'no-prototype-builtins': 'off',
+		'no-tabs': 'off',
+		'no-underscore-dangle': 'off',
+		'object-curly-spacing': ['error', 'always'],
+		'prefer-arrow-callback': 'off',
+		'prefer-rest-params': 'off',
+		'quote-props': ['error', 'as-needed'],
+	},
+};
