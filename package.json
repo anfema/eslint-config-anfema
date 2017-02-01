@@ -7,10 +7,10 @@
   "author": "Florian Pichler <f.pichler@anfe.ma>",
   "license": "MIT",
   "peerDependencies": {
-  	"eslint": "^3",
-  	"eslint-config-airbnb-base": "^11",
+    "babel-eslint": "^7",
+    "eslint": "^3",
+    "eslint-config-airbnb-base": "^11",
     "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2",
-    "babel-eslint": "^7"
+    "eslint-plugin-import": "^2"
   }
 }
