@@ -18,7 +18,7 @@ module.exports = {
 		'func-names': 'off',
 		'generator-star-spacing': 'off', // fails with async code at the moment, revisit later
 		'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-		'indent': ['warn', 'tab', { SwitchCase: 1 }],
+		indent: ['warn', 'tab', { SwitchCase: 1 }],
 		'max-len': ['error', 120, { ignoreTemplateLiterals: true, ignoreUrls: true }],
 		'new-cap': ['error', { properties: false }],
 		'newline-after-var': 'error',
@@ -28,7 +28,7 @@ module.exports = {
 		'no-console': ['error', { allow: ['error'] }],
 		'no-debugger': 'error',
 		'no-mixed-operators': 'off',
-		'no-multiple-empty-lines': ['error', { 'max': 1, }],
+		'no-multiple-empty-lines': ['error', { max: 1 }],
 		'no-param-reassign': 'off',
 		'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 		'no-prototype-builtins': 'off',
