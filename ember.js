@@ -29,7 +29,7 @@ module.exports = {
 		'ember/order-in-components': 'error',
 		'ember/order-in-controllers': 'error',
 		'ember/order-in-models': 'error',
-		'ember/order-in-routes': 'error',
+		'ember/order-in-routes': 'off', // does not yet match our preferred ordering
 		'ember/query-params-on-top': 'off', // clashes with order-in-controller
 		'ember/routes-segments-snake-case': 'error',
 		'ember/use-brace-expansion': 'error',
