@@ -15,13 +15,13 @@ module.exports = {
 		'ember',
 	],
 	rules: {
-		'ember/alias-model-in-controller': 'warn',
+		'ember/alias-model-in-controller': 'off',
 		'ember/avoid-leaking-state-in-components': 'error',
 		'ember/closure-actions': 'error',
 		'ember/jquery-ember-run': 'error',
-		'ember/local-modules': 'error',
+		'ember/local-modules': 'off',
 		'ember/named-functions-in-promises': 'off', // will revisit
-		'ember/no-empty-attrs': 'error',
+		'ember/no-empty-attrs': 'off',
 		'ember/no-function-prototype-extensions': 'error',
 		'ember/no-observers': 'error',
 		'ember/no-on-calls-in-components': 'error',
@@ -30,7 +30,7 @@ module.exports = {
 		'ember/order-in-controllers': 'error',
 		'ember/order-in-models': 'error',
 		'ember/order-in-routes': 'error',
-		'ember/query-params-on-top': 'error',
+		'ember/query-params-on-top': 'off', // clashes with order-in-controller
 		'ember/routes-segments-snake-case': 'error',
 		'ember/use-brace-expansion': 'error',
 		'ember/use-ember-get-and-set': 'off', // may revisit
