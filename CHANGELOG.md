@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1
+
+- Fixed eslint-plugin-babel peer dependency
+
 ## 3.0.0
 
 - Updated peer dependencies:
