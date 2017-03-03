@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0
+
+- Updated peer dependencies:
+	- eslint-plugin-babel
+	- eslint-plugin-ember
+
 ## 2.0.0
 
 - Relaxed some ember related rules
