@@ -14,7 +14,7 @@ The most prominent additions/changes are:
 
 ```sh
 #Packages to install
-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-ember babel-eslint eslint-config-airbnb-base eslint-config-anfema
+eslint eslint-config-airbnb-base eslint-config-anfemaeslint-plugin-babel eslint-plugin-import babel-eslint
 ```
 
 Install with either `yarn add --dev` or `npm install --save-dev`
@@ -27,17 +27,23 @@ Install with either `yarn add --dev` or `npm install --save-dev`
 
 In your `.eslintrc.js`:
 
-```javascript
+```js
 module.exports = {
 	extends: 'eslint-config-anfema',
 }
 ```
 
+
 ### Ember
+
+```sh
+#Additional dependencies to install
+eslint-plugin-ember
+```
 
 In your `.eslintrc.js`:
 
-```javascript
+```js
 module.exports = {
 	extends: 'eslint-config-anfema/ember',
 }
@@ -46,14 +52,45 @@ module.exports = {
 Extends the default configuration so it can be used in Ember.js projects,
 which require a few excemptions from our generally stricter rules.
 
+
 ### Ember Tests
+
+```sh
+#Additional dependencies to install
+eslint-plugin-ember
+```
 
 In your `.eslintrc.js`:
 
-```javascript
+```js
 module.exports = {
 	extends: 'eslint-config-anfema/ember-tests',
 }
 ```
 
 Extends the Ember.js configuration to include the testing environment.
+
+
+### Ember Tests Mocha
+
+```sh
+#Additional dependencies to install
+eslint-plugin-ember eslint-plugin-chai-expect eslint-plugin-chai-friendly
+```
+
+In your `.eslintrc.js`:
+
+```js
+module.exports = {
+	extends: 'eslint-config-anfema/ember-tests',
+}
+```
+
+Extends the Ember.js configuration to include the testing environment for ember-mocha as well as additional rules 
+for usage with Chai.
+
+
+
+## Credits
+
+- [@pichfl](https://github.com/pichfl)

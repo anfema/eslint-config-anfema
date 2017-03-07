@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0
+- Added ember-tests-mocha
+- Updated README
+
 ## 3.0.1
 
 - Fixed eslint-plugin-babel peer dependency
