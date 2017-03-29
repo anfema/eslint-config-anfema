@@ -26,10 +26,10 @@ module.exports = {
 		'ember/no-observers': 'error',
 		'ember/no-on-calls-in-components': 'error',
 		'ember/no-side-effects': 'error',
-		'ember/order-in-components': 'error',
-		'ember/order-in-controllers': 'error',
-		'ember/order-in-models': 'error',
-		'ember/order-in-routes': 'off', // does not yet match our preferred ordering
+		'ember/order-in-components': 'off', // diabled until we agree on fixed order
+		'ember/order-in-controllers': 'off',
+		'ember/order-in-models': 'off',
+		'ember/order-in-routes': 'off',
 		'ember/query-params-on-top': 'off', // clashes with order-in-controller
 		'ember/routes-segments-snake-case': 'error',
 		'ember/use-brace-expansion': 'error',

@@ -14,7 +14,7 @@ The most prominent additions/changes are:
 
 ```sh
 #Packages to install
-eslint eslint-config-airbnb-base eslint-config-anfemaeslint-plugin-babel eslint-plugin-import babel-eslint
+eslint eslint-config-airbnb-base eslint-config-anfema eslint-plugin-babel eslint-plugin-import babel-eslint
 ```
 
 Install with either `yarn add --dev` or `npm install --save-dev`

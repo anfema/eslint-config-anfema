@@ -1,6 +1,11 @@
 # Changelog
 
+## 3.2.0
+
+- Disabled ember/order-in-* for now
+
 ## 3.1.0
+
 - Added ember-tests-mocha
 - Updated README
 

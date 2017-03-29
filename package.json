@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-anfema",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "anfema's ESLint configuration, following our styleguide. Extending on AirBnB's famous one.",
   "main": "index.js",
   "repository": "git@github.com:anfema/eslint-config-anfema.git",
