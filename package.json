@@ -1,16 +1,18 @@
 {
   "name": "eslint-config-anfema",
-  "version": "3.2.0",
-  "description": "anfema's ESLint configuration, following our styleguide. Extending on AirBnB's famous one.",
+  "version": "4.0.0",
+  "description": "anfema's ESLint configuration",
   "main": "index.js",
   "repository": "git@github.com:anfema/eslint-config-anfema.git",
   "author": "Florian Pichler <f.pichler@anfe.ma>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^7",
-    "eslint": "^3",
-    "eslint-config-airbnb-base": "^11",
-    "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2"
+    "babel-eslint": "~7",
+    "eslint": "~4",
+    "eslint-config-airbnb-base": "~12",
+    "eslint-config-prettier": "~2",
+    "eslint-plugin-babel": "~4",
+    "eslint-plugin-import": "~2",
+    "eslint-plugin-prettier": "~2.3"
   }
 }

@@ -1,5 +1,17 @@
 # Changelog
 
+## 4.0.0
+
+- Added config variation with support for Prettier
+
+## 3.4.0
+
+- Upgrade ESLint peer dependency
+
+## 3.3.0
+
+- Enable ember/no-old-shims (fixable)
+
 ## 3.2.0
 
 - Disabled ember/order-in-* for now
