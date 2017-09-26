@@ -9,9 +9,7 @@ module.exports = {
 	env: {
 		es6: true,
 	},
-	plugins: [
-		'babel',
-	],
+	plugins: ['babel'],
 	rules: {
 		'comma-dangle': ['error', 'always-multiline'],
 		'consistent-this': ['error', 'that'],

@@ -12,10 +12,7 @@ module.exports = {
 	env: {
 		es6: true,
 	},
-	plugins: [
-		'babel',
-		'prettier',
-	],
+	plugins: ['babel', 'prettier', 'import'],
 	rules: {
 		'consistent-this': ['error', 'that'],
 		'func-names': 'off',

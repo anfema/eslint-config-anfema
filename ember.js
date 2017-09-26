@@ -10,9 +10,7 @@ module.exports = {
 		es6: true,
 		browser: true,
 	},
-	plugins: [
-		'ember',
-	],
+	plugins: ['ember'],
 	rules: {
 		'ember/alias-model-in-controller': 'off',
 		'ember/avoid-leaking-state-in-components': 'error',
@@ -40,17 +38,24 @@ module.exports = {
 		'import/no-extraneous-dependencies': 'off',
 		'import/no-named-as-default-member': 'off',
 		'import/no-unresolved': 'off', // does not work with the ember resolver
-		'max-len': ['error', 120, {
-			ignorePattern: 'Logger\\.|computed\\(|observer\\(',
-			ignoreTemplateLiterals: true,
-			ignoreUrls: true,
-		}],
-		'new-cap': ['error', {
-			properties: false,
-			capIsNewExceptions: [
-				'A', // Ember.A
-			],
-		}],
+		'max-len': [
+			'error',
+			120,
+			{
+				ignorePattern: 'Logger\\.|computed\\(|observer\\(',
+				ignoreTemplateLiterals: true,
+				ignoreUrls: true,
+			},
+		],
+		'new-cap': [
+			'error',
+			{
+				properties: false,
+				capIsNewExceptions: [
+					'A', // Ember.A
+				],
+			},
+		],
 		'no-console': 'error',
 		'prefer-arrow-callback': 'off',
 		'prefer-rest-params': 'off',

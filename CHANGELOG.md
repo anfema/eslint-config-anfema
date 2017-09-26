@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.1
+
+- Confirm to Prettier rules
+- Add missing import plugin for prettier configs not based on AirBnB
+
 ## 4.0.0
 
 - Added config variation with support for Prettier

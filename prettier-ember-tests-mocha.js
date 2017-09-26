@@ -7,10 +7,7 @@ module.exports = {
 	globals: {
 		server: true,
 	},
-	plugins: [
-		'chai-friendly',
-		'chai-expect',
-	],
+	plugins: ['chai-friendly', 'chai-expect'],
 	rules: {
 		'chai-expect/missing-assertion': 'error',
 		'chai-expect/no-inner-compare': 'error',
