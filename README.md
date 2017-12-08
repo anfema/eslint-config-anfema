@@ -93,6 +93,10 @@ additional rules for usage with Chai.
 
 ## Changelog
 
+### 5.0.1
+
+* Disable `import/group-exports` as it doesn't seem to work everywhere
+
 ### 5.0.0
 
 * Default to Prettier, deprecate Prettier specific configurations

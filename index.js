@@ -161,7 +161,7 @@ module.exports = {
 				allowObject: false,
 			},
 		],
-		'import/group-exports': 'error',
+		// 'import/group-exports': 'error', // disabled for now
 
 		// Prettier
 		'prettier/prettier': [
