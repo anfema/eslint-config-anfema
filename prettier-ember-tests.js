@@ -1,10 +1,8 @@
+console.warn(
+	'eslint-config-anfema/prettier-ember-tests is deprecated in favour of eslint-config-anfema/ember-tests'
+);
+
 module.exports = {
-	extends: './prettier-ember.js',
-	env: {
-		embertest: true,
-		qunit: true,
-	},
-	globals: {
-		server: true,
-	},
+	root: true,
+	extends: './ember-tests.js',
 };

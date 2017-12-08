@@ -5,7 +5,7 @@ module.exports = {
 		sourceType: 'module',
 	},
 	parser: 'babel-eslint',
-	extends: './index.js',
+	extends: './prettier.js',
 	env: {
 		es6: true,
 		browser: true,
@@ -34,17 +34,23 @@ module.exports = {
 		'ember/use-ember-get-and-set': 'off', // may revisit
 
 		// Changes to our regular rules because Ember behaves a little different
+		'no-invalid-this': 'off',
+
 		'import/extensions': 'off',
 		'import/no-extraneous-dependencies': 'off',
 		'import/no-named-as-default-member': 'off',
 		'import/no-unresolved': 'off', // does not work with the ember resolver
+		'func-names': 'off', // Does not work correctly with Ember computed properties
 		'max-len': [
 			'error',
-			120,
 			{
+				code: 100,
+				comments: 120,
+				ignoreComments: true,
 				ignorePattern: 'Logger\\.|computed\\(|observer\\(',
 				ignoreTemplateLiterals: true,
 				ignoreUrls: true,
+				ignoreStrings: true,
 			},
 		],
 		'new-cap': [
@@ -56,7 +62,7 @@ module.exports = {
 				],
 			},
 		],
-		'no-console': 'error',
+		'no-console': 'warn',
 		'prefer-arrow-callback': 'off',
 		'prefer-rest-params': 'off',
 	},
