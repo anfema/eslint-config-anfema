@@ -7,16 +7,16 @@
   "author": "Florian Pichler <f.pichler@anfe.ma>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "~7",
+    "babel-eslint": "~8",
     "eslint": "~4",
-    "eslint-config-airbnb-base": "~12",
     "eslint-config-prettier": "~2",
     "eslint-plugin-babel": "~4",
     "eslint-plugin-import": "~2",
-    "eslint-plugin-prettier": "~2.3"
+    "eslint-plugin-prettier": "~2.3",
+    "prettier": "~1"
   },
   "devDependencies": {
-    "eslint-config-prettier": "~2.6.0",
-    "prettier": "~1.7.0"
+    "eslint-config-prettier": "~2",
+    "prettier": "~1"
   }
 }
