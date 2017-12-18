@@ -93,6 +93,11 @@ additional rules for usage with Chai.
 
 ## Changelog
 
+### 5.1.0
+
+* Laxer peer dependency settings for eslint-plugin-prettier
+* Remove deprecation notice created by importing the wrong configuration
+
 ### 5.0.1
 
 * Disable `import/group-exports` as it doesn't seem to work everywhere

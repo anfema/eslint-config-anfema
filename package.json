@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-anfema",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "anfema's ESLint configuration",
   "main": "index.js",
   "repository": "git@github.com:anfema/eslint-config-anfema.git",
@@ -12,7 +12,7 @@
     "eslint-config-prettier": "~2",
     "eslint-plugin-babel": "~4",
     "eslint-plugin-import": "~2",
-    "eslint-plugin-prettier": "~2.3",
+    "eslint-plugin-prettier": "~2",
     "prettier": "~1"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ module.exports = {
 		sourceType: 'module',
 	},
 	parser: 'babel-eslint',
-	extends: './prettier.js',
+	extends: './index.js',
 	env: {
 		es6: true,
 		browser: true,
