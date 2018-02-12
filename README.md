@@ -93,6 +93,10 @@ additional rules for usage with Chai.
 
 ## Changelog
 
+### 5.2.0
+
+* Disable no-console warnings (via @philippgrieser)
+
 ### 5.1.0
 
 * Laxer peer dependency settings for eslint-plugin-prettier
