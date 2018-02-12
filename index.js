@@ -19,7 +19,7 @@ module.exports = {
 		'valid-jsdoc': 'error',
 
 		// Possible Errors - Overriding eslint:recommended
-		'no-console': 'warn',
+		'no-console': 'off',
 		'no-debugger': 'warn',
 
 		// Stylistic Issues
