@@ -93,6 +93,10 @@ additional rules for usage with Chai.
 
 ## Changelog
 
+### 5.3.0
+
+* Updated peer depencies
+
 ### 5.2.0
 
 * Disable no-console warnings (via @philippgrieser)
